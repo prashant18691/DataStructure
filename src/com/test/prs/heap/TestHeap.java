@@ -44,8 +44,10 @@ public class TestHeap {
     {
         TestHeap bt = new TestHeap();
 
-        Node root = new Node(10);
-        root.left = new Node(9);
+        for(int i=10;i>=1;i--)
+            System.out.println(bt.add(i));
+        System.out.println(-2>>>1);
+        /*root.left = new Node(9);
         root.right = new Node(8);
         root.left.left = new Node(7);
         root.left.right = new Node(6);
@@ -53,25 +55,30 @@ public class TestHeap {
         root.right.right = new Node(4);
         root.left.left.left = new Node(3);
         root.left.left.right = new Node(2);
-        root.left.right.left = new Node(1);
+        root.left.right.left = new Node(1);*/
 
         if(bt.isHeap(root) == true)
             System.out.println("Given binary tree is a Heap");
         else
             System.out.println("Given binary tree is not a Heap");
     }
-    Node root;
-    boolean add(Node n,int data){
+    static Node root;
+    boolean add(int data){
+        int oldNodeCount = countNodes(root);
+        root = add(root,data);
+        int newNodeCount = countNodes(root);
+        return newNodeCount-oldNodeCount>0;
+    }
+
+    Node add(Node n,int data){
         if(n==null) {
             n = new Node(data);
-            return true;
         }
-
-        if(root.left==null)
-
-
-
-        return false;
+        else {
+            n.left = add(n.left,data);
+            n.right = add(n.right,data);
+        }
+        return n;
     }
 }
 
