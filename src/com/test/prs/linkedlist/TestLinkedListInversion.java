@@ -1,4 +1,4 @@
-package com.test.prs.linkedListInversion;
+package com.test.prs.linkedlist;
 
 public class TestLinkedListInversion {
     LinkedList head;

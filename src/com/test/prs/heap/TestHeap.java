@@ -46,7 +46,6 @@ public class TestHeap {
 
         for(int i=10;i>=1;i--)
             System.out.println(bt.add(i));
-        System.out.println(-2>>>1);
         /*root.left = new Node(9);
         root.right = new Node(8);
         root.left.left = new Node(7);
