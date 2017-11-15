@@ -7,15 +7,34 @@ public class TestHeapify {
             return;
         int n = input.length;
 
+        /*for(int i=(n-1)/2;i>=0;i--)
+            maxHeapify(input,i,n);*/
         for(int i=(n-1)/2;i>=0;i--)
-            maxHeapify(input,i,n);
+            minHeapify(input,i,n);
 
         //sorting
-        for(int i=0;i<n;i++){
+       /* for(int i=0;i<n;i++){
             int temp=input[0];
             input[0]=input[n-1-i];
             input[n-1-i]=temp;
             maxHeapify(input,0,n-1-i);
+        }*/
+        int k=4;
+        // k largest
+        /*for(int i=0;i<k;i++){
+            System.out.println(input[0]);
+            int temp=input[0];
+            input[0]=input[n-1-i];
+            input[n-1-i]=temp;
+            maxHeapify(input,0,n-1-i);
+        }*/
+        // k smallest
+        for(int i=0;i<k;i++){
+            System.out.println(input[0]);
+            int temp=input[0];
+            input[0]=input[n-1-i];
+            input[n-1-i]=temp;
+            minHeapify(input,0,n-1-i);
         }
     }
     //min heap
@@ -29,7 +48,7 @@ public class TestHeapify {
 
         for(int i=0;i<k;i++) {
             int smallest = extractMin(input);
-            if (i == k-1)
+//            if (i == k-1)
                 System.out.println(smallest);
         }
     }
@@ -45,7 +64,6 @@ public class TestHeapify {
             input[0]=input[length-1];
             minHeapify(input,0,length);
         }
-        length--;
 
         return root;
     }
@@ -75,6 +93,36 @@ public class TestHeapify {
         return input[0];
     }
 
+
+    void findKthLargest(int[] input, int k){
+        if(input==null)
+            return;
+        int n = input.length;
+
+        for(int i=(n-1)/2;i>=0;i--)
+            maxHeapify(input,i,n);
+
+        for(int i=0;i<k;i++) {
+            int largest = extractMax(input);
+//            if (i == k-1)
+            System.out.println(largest);
+        }
+    }
+    //min heap && findSmallest
+    private int extractMax(int[] input) {
+        int length = input.length;
+        if(length==0)
+            return Integer.MIN_VALUE;
+
+        int root = input[0];
+
+        if(length>1){
+            input[0]=input[length-1];
+            maxHeapify(input,0,length);
+        }
+
+        return root;
+    }
     private void maxHeapify(int[] input, int i, int n) {
         int largest = i;
         int left = 2*i+1;
@@ -114,10 +162,10 @@ public class TestHeapify {
     public static void main(String[] args){
         TestHeapify test = new TestHeapify();
         int[] arr = {12, 3, 5, 7, 19};
-        test.findKthSmallest1(arr,4);
-        System.out.println("Max Heap");
+        test.doHeapify(arr);
+       /* System.out.println("Max Heap");
         for(int i : arr)
-            System.out.print(i+" ");
+            System.out.print(i+" ");*/
     }
 
 }
