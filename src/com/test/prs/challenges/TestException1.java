@@ -6,7 +6,7 @@ public class TestException1 {
         int a = 9/0;
        }
        catch(Exception e){
-           System.out.println("catch");
+           System.out.println("catch");// exception handling
        }
        finally {
            System.out.println("finally");
