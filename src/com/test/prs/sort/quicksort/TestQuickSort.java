@@ -36,7 +36,7 @@ public class TestQuickSort {
         in[i+1] = in[h];
         in[h] = temp;
 
-        return i+1;
+        return i+1; // return pivot index
     }
 
     private void swap(int[] in, int i, int j) {

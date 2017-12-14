@@ -9,14 +9,34 @@ public class SolveHourGlass {
     static int max = Integer.MIN_VALUE;
 
     static int solve(int[][] arr){
-        int i=0;int j=0;
-        for(int x=i;x<3*i+3;x++){
+       int r = 0;int c = 0;
+        return findMaxSum(arr, r, c);
+    }
 
-
-            if(i+3<6)
-                i+=3;
-        }
+    private static int findMaxSum(int[][] arr, int r, int c) {
+        int sum = 0;
+        for(int i=r;i<r+3;i++){
+           for(int j=c;j<c+3;j++)
+               sum += arr[i][j];
+           if(max<sum)
+               max=sum;
+       }
+        c = checkBoundary(c);
+        r = checkBoundary(r);
+        if(c<=3)
+            findMaxSum(arr, r, c);
+        if(r<=3)
+            findMaxSum(arr, r, c);
         return max;
+    }
+
+
+    private static int checkBoundary(int k) {
+        if(k<3)
+            k++;
+        else
+            k=0;
+        return k;
     }
 
     public static void main(String[] args) {
@@ -28,7 +48,7 @@ public class SolveHourGlass {
                 arr[i][j] = s.nextInt();
             }
         }
-        solve(arr);
+        System.out.println(solve(arr));
         //  System.out.println(Arrays.deepToString(arr));
     }
 }
