@@ -2,6 +2,7 @@ package com.test.autoCompletion;
 
 import java.util.Scanner;
 import java.util.HashMap;
+import java.util.Map;
 
 public class TestTrie {
     public static void main(String[] args) {
@@ -18,16 +19,21 @@ public class TestTrie {
             }
         }
         scan.close();*/
-        trie.add("hack");
+        trie.add("hackb");
         trie.add("hackerrank");
-        trie.find("hac");
-        trie.find("hak");
+        trie.add("add");
+        trie.add("addii");
+        trie.add("hank");
+        System.out.println(trie.find("hac"));
+        System.out.println(trie.find("hak"));
+        System.out.println(trie.find("add"));
+        System.out.println(trie.find("ha"));
     }
 }
 
 /* Based loosely on tutorial video in this problem */
 class TrieNode {
-    private HashMap<Character, TrieNode> children = new HashMap<>();
+    private Map<Character, TrieNode> children = new HashMap<>();
     public int size;
 
     public void putChildIfAbsent(char ch) {

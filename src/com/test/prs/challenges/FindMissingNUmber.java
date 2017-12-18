@@ -15,7 +15,7 @@ public class FindMissingNUmber {
                 System.out.println(curr);
             }
             else
-                i++;
+                i++; // increment i only when arr[i]==curr
             curr++;
         }
 
