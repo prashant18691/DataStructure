@@ -11,25 +11,24 @@ public class FindMedian {
         int n = in.nextInt();
         List<Integer> theList = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            Integer theValue = in.nextInt();
-            int lo = 0;
-            int hi = theList.size();
-            while (lo < hi) {
-                int median = (lo + hi) / 2;
-                if (theValue >= theList.get(median)) {
-                    lo = median + 1;
-                    if (median + 1 < theList.size() && theValue <= theList.get(median + 1)) {
-                        hi = median + 1;
-                    }
-                } else {
-                    hi = median;
-                    if (median > 0 && theValue >= theList.get(median - 1)) {
-                        lo = median;
-                    }
+            int curr = in.nextInt();
+            int low = 0;
+            int high = theList.size()-1;
+            while(low<=high){
+                int median = (low+high)/2;
+                if(curr>=theList.get(median)){
+                    low = median+1;
+                    if(low<=high && curr<=theList.get(low))
+                        high = low;
+                }
+                else{
+                    high = median-1;
+                    if(high>0 && curr>=theList.get(high))
+                        low = high;
                 }
             }
-            theList.add(lo, theValue);
-            System.out.println(String.format("%.1f", getMedianValue(theList)));
+            theList.add(low,curr);
+            System.out.println(String.format("%.1f",getMedianValue(theList)));
         }
     }
 

@@ -32,9 +32,7 @@ public class TestQuickSort {
                 swap(in,i,j);
             }
        }
-       int temp = in[i+1];
-        in[i+1] = in[h];
-        in[h] = temp;
+       swap(in,i+1,h);
 
         return i+1; // return pivot index
     }
@@ -85,8 +83,8 @@ public class TestQuickSort {
 
     public static void main(String[] args){
         TestQuickSort sort = new TestQuickSort();
-        int[] in = {2,1,2,0,0,1,1};
-        sort.doQuickSort(in);
+        int[] in = {5,1,2,4,3,7,6};
+        sort.doSort(in);
 
         System.out.println(Arrays.toString(in));
     }

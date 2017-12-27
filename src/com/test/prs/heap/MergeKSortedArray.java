@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeKSortedArray {
 
-    private class MinHeap{
+    private static class MinHeap{
         int i,j;
         int data;
 
