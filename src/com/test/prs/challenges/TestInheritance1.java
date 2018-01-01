@@ -6,6 +6,8 @@ public class TestInheritance1 {
         A a2 = new B();
        /* a1.hello();
         a2.hello();*/
+        System.out.println(a1.helloA());
+        System.out.println(a2.helloA());
         a1=null;
         a2=null;
         System.gc();
@@ -24,6 +26,15 @@ class A {
     void hello(){
         System.out.println("Hello from A");
     }
+
+    A helloA(){
+        return this;
+    }
+
+    @Override
+    public String toString() {
+        return "A{}";
+    }
 }
 
 class B extends A{
@@ -35,5 +46,15 @@ class B extends A{
     @Override
     void hello(){
         System.out.println("Hello from B");
+    }
+
+    @Override
+    A helloA() {
+        return this;
+    }
+
+    @Override
+    public String toString() {
+        return "B{}";
     }
 }
