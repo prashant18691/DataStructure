@@ -50,11 +50,11 @@ class Trie {
 
     Trie(){} // default constructor
 
-    Trie(String[] words) {
+ /*   Trie(String[] words) {
         for (String word : words) {
             add(word);
         }
-    }
+    }*/
 
     public void add(String str) {
         TrieNode curr = root;

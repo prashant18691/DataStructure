@@ -5,11 +5,11 @@ import java.util.Scanner;
 
 public class TestSudoku {
 
-    public boolean validateSudoku(char[][] sudoku){
+    public boolean validateSudoku1(String[][] sudoku){
         for(int i=0;i<sudoku.length;i++){
-            char[] row = sudoku[i].clone();
-            char[] col = new char[sudoku.length];
-            char[] square = new char[sudoku.length];
+            String[] row = sudoku[i].clone();
+            String[] col = new String[sudoku.length];
+            String[] square = new String[sudoku.length];
             for(int j=0;j<sudoku.length;j++){
                 col[j] = sudoku[j][i];
                 square[j] = sudoku[(i / 3) * 3 + j / 3][i * 3 % 9 + j % 3];
@@ -20,26 +20,11 @@ public class TestSudoku {
         return true;
     }
 
-    public boolean validateSudoku1(char[][] sudoku){
-        for(int i=0;i<sudoku.length;i++){
-            char[] row = sudoku[i].clone();
-            char[] col = new char[sudoku.length];
-            char[] square = new char[sudoku.length];
-            for(int j=0;j<sudoku.length;j++){
-                col[j] = sudoku[j][i];
-                square[j] = sudoku[(i / 3) * 3 + j / 3][i * 3 % 9 + j % 3];
-            }
-            if(!(checkSudoku(row) &&  checkSudoku(col) && checkSudoku(square)))
-                return false;
-        }
-        return true;
-    }
-
-    private boolean checkSudoku(char[] in) {
+    private boolean checkSudoku(String[] in) {
         Arrays.sort(in);
         int count=0;
-        for(char i : in)
-            if(Character.getNumericValue(i)!=++count)
+        for(String i : in)
+            if(Integer.parseInt(i)!=++count)
                 return false;
         return true;
     }
@@ -59,29 +44,11 @@ public class TestSudoku {
         };*/
 
         Scanner s = new Scanner(System.in);
-        char[][] input = new char[9][9];
+        String[][] input = new String[9][9];
         for(int i=0;i<9;i++){
-            String row = s.nextLine();
-            if(row.isEmpty()){
-                System.out.println("Incorrect");
-                return;
-            }
-
-            try{
-                Integer.parseInt(row);
-            }
-            catch(Exception ex){
-                System.out.println("Incorrect");
-                return;
-            }
-            char[] charArray = row.toCharArray();
-            if(charArray!=null && charArray.length!=9) {
-                System.out.println("Incorrect");
-                return;
-            }
-            input[i]=charArray;
+            input[i] = s.nextLine().split(" ");
         }
-        boolean isValid = test.validateSudoku(input);
+        boolean isValid = test.validateSudoku1(input);
         if(isValid)
             System.out.println("Correct");
         else
