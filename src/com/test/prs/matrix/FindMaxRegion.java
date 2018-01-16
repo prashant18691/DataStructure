@@ -13,10 +13,16 @@ public class FindMaxRegion {
                 grid[grid_i][grid_j] = in.nextInt();
             }
         }
-        System.out.println("Max Region :: "+findMaxRegion(grid));
+        System.out.println(findMaxRegion(grid));
     }
     public static int findMaxRegion(int[][] grid){
-        return Math.max(0,countRegion(grid,0,0));
+        int max = 0;
+        for(int i=0;i<grid.length;i++){
+            for(int j=0;j<grid[0].length;j++){
+               max =  Math.max(max,countRegion(grid,i,j));
+            }
+        }
+        return max;
     }
 
     private static int countRegion(int[][] grid, int r, int c) {
