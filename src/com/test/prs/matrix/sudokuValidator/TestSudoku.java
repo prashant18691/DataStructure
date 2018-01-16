@@ -1,4 +1,4 @@
-package com.test.prs.sudokuValidator;
+package com.test.prs.matrix.sudokuValidator;
 
 import java.util.Arrays;
 import java.util.Scanner;

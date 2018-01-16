@@ -1,4 +1,4 @@
-package com.test.prs.sudokuValidator;
+package com.test.prs.matrix.sudokuValidator;
 
 public class SudokuSolver {
     private static final int UNASSIGNED = 0;

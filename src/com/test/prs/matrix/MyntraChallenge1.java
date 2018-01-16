@@ -1,4 +1,4 @@
-package com.test.prs;
+package com.test.prs.matrix;
 
 import java.util.*;
 

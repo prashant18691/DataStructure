@@ -14,8 +14,12 @@ public class TestGraph {
             int n = s.nextInt();
             int e = s.nextInt();
             Graph g = new Graph(n);
-            for(int i=0;i<e;i++)
-                g.addEdge(s.nextInt()-1,s.nextInt()-1);
+            for(int i=0;i<e;i++) {
+                int x = s.nextInt() - 1;
+                int y = s.nextInt() - 1;
+                g.addEdge(x,y);
+                g.addEdge(y,x);
+            }
             g.bfs(s.nextInt()-1);
             t--;
         }
@@ -38,8 +42,9 @@ class Graph{
 
     void bfs(int s){
         boolean[] visited = new boolean[V];
-        int[] dist = new int[V-1];
+        int[] dist = new int[V];
         Arrays.fill(dist,-1);
+        dist[s]=0;
         visited[s] = true;
         LinkedList<Integer> queue = new LinkedList<Integer>();
         queue.add(s);
@@ -50,13 +55,15 @@ class Graph{
                 int n = i.next();
                 if(!visited[n]){
                     visited[n]=true;
-                    dist[n-1]+=7;//7-1=6
+                    dist[n] = dist[s]+6;//7-1=6
                     queue.add(n);
                 }
             }
         }
         for(int i : dist){
+            if(i!=0)
             System.out.print(i+" ");
         }
+        System.out.println();
     }
 }
