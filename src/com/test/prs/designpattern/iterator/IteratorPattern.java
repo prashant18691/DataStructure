@@ -12,6 +12,11 @@ public class IteratorPattern {
         while (englishIterator.hasNext()){
             System.out.println(englishIterator.next().toString());
         }
+        System.out.println("*************************");
+        ChannelIterator hindiIterator = channelCollection.iterator(ChannelType.HINDI);
+        while (hindiIterator.hasNext()){
+            System.out.println(hindiIterator.next().toString());
+        }
     }
 
     private static ChannelCollection populateChannels() {
