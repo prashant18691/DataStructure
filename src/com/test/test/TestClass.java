@@ -1,10 +1,9 @@
 package com.test.test;
 
-import com.test.prs.challenges.TestGenerics;
+import com.sun.javafx.tools.packager.Main;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import sun.tools.jar.Main;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
