@@ -9,4 +9,5 @@ public class LinkedList {
     }
     int num;
     LinkedList next;
+
 }
