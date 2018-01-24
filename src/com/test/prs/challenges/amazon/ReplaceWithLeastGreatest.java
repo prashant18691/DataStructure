@@ -110,20 +110,6 @@ public class ReplaceWithLeastGreatest {
         return root;
     }
 
-    private int searchIndex(int[] arr, int num) {
-        for (int i=0;i<arr.length;i++){
-            if(arr[i]==num)
-                return i;
-        }
-        return -1;
-    }
-
-    private int counNodes(LinkedList head) {
-        while(head!=null){
-            return 1+counNodes(head.next);
-        }
-        return 0;
-    }
 }
 
 class Node{
