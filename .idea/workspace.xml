@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83196556-2693-4442-97f2-025cd2c9a5b2" name="Default" comment="Least Surpasser in a linked list using BST">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/linkedlist/FindCommonPoint.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/Trie.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/Trie.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/TrieNode.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/TrieNode.class" />
@@ -13,7 +12,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/Node.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/Node.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/challenges/TestInheritanceException.java" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/TestInheritanceException.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="FindCommonPoint.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindCommonPoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/FindCommonPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="46" column="104" lean-forward="false" selection-start-line="46" selection-start-column="104" selection-end-line="46" selection-end-column="104" />
+            <state relative-caret-position="-352">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestInheritanceException.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/TestInheritanceException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -113,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/FindCommonPoint.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/TestInheritanceException.java" />
       </list>
     </option>
   </component>
@@ -569,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516785875863</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Find intersction point">
+      <created>1516794094389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1516794094389</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -659,7 +676,8 @@
     <MESSAGE value="Find Tree Diameter" />
     <MESSAGE value="Error fix" />
     <MESSAGE value="Least Surpasser in a linked list using BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Least Surpasser in a linked list using BST" />
+    <MESSAGE value="Find intersction point" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find intersction point" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,13 +766,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/map/MyMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/util/LinkedList.class" />
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/heap/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1101,8 +1112,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/FindCommonPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="46" column="104" lean-forward="false" selection-start-line="46" selection-start-column="104" selection-end-line="46" selection-end-column="104" />
+        <state relative-caret-position="-352">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/TestInheritanceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -9,9 +9,10 @@ public class TestInheritanceException {
 }
 
 class A1{
-    protected void d() throws IOException{
-
+    protected void d() throws Exception{
     }
+   /*protected void d(){
+   }*/
     public Exception throwEx(){
         return new RuntimeException();
     }
@@ -23,9 +24,12 @@ class A1{
 
 class B1 extends A1{
     @Override
+    protected void d() throws IOException {
+    }
+    /*@Override
     protected void d() throws RuntimeException{
 
-    }
+    }*/
     @Override
     public Exception throwEx(){
         return new Exception();
