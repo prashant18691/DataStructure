@@ -26,7 +26,7 @@ public class ReplaceWithLeastGreatest {
         LinkedList reverseHead = reverseLinkedList(head);
         Map<Integer,Integer> m = new HashMap<>();
         while(reverseHead!=null){// create bst from right to left
-           root = addNode(root,reverseHead);
+           root = addNode(root,reverseHead.num);
            Integer greater = getGreater(root,reverseHead.num);
            m.put(reverseHead.num,greater);
            reverseHead = reverseHead.next;
@@ -86,23 +86,23 @@ public class ReplaceWithLeastGreatest {
 
     private Integer getGreater(Node root, int x) { // 10 12 5 40 21 70 1 49 37
         if(root==null) return null;
-        if(root.data.num<=x) return getGreater(root.right,x);
+        if(root.data<=x) return getGreater(root.right,x);
         else {
             Integer num = getGreater(root.left, x);
             if(num==null) //if left tree is returning take it from  inorder successor
-                num = root.data.num; //
+                num = root.data; //
             return num;
         }
     }
 
     Node root;
 
-    private Node addNode(Node root, LinkedList x) {
+    private Node addNode(Node root, int x) {
         Node n = new Node(x);
         if(root==null)
             root = n;
         else{
-            if(x.num<root.data.num)
+            if(x<root.data)
                 root.left = addNode(root.left,x);
             else
                 root.right = addNode(root.right,x);
@@ -127,10 +127,10 @@ public class ReplaceWithLeastGreatest {
 }
 
 class Node{
-    LinkedList data;
+    int data;
     Node left,right;
 
-    public Node(LinkedList data) {
+    public Node(int data) {
         this.data = data;
     }
 }
