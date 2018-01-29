@@ -4,16 +4,14 @@ public class TestLinkedListLoop {
 
     LinkedList head;
     public boolean detectLoop(){
-        LinkedList node1 = head;
-        LinkedList node2 = head;
-        while(node1!=null){
-            node1=node1.getNext();
-            if(node1!=null && node1.getNext()!=null){
-                node1=node1.getNext();
-                node2 = node2.getNext();
-            }
+        LinkedList fast = head;
+        LinkedList slow = head;
+        while(fast!=null && slow!=null && fast.getNext()!=null){
+            fast=fast.getNext().getNext();
+            slow=slow.getNext();
+            if(slow.equals(fast))
+                return true;
         }
-        System.out.println(node2.getData());
         return false;
     }
 
@@ -32,13 +30,22 @@ public class TestLinkedListLoop {
     }
 
     public static void main(String[] args){
-        TestLinkedListLoop test = new TestLinkedListLoop();
-        test.push(17);
-        test.push(22);
-        test.push(12);
-        test.push(13);
-        test.push(14);
-        test.push(15);
-        test.detectLoop();
+        TestLinkedListLoop llist = new TestLinkedListLoop();
+        llist.push(20);
+        llist.push(4);
+        llist.push(15);
+        llist.push(10);
+
+        /*Create loop for testing */
+        llist.head.getNext().getNext().getNext().setNext(llist.head);
+
+        System.out.println(llist.detectLoop());
+    }
+
+    private void printList(LinkedList n) {
+        while(n!=null){
+            System.out.print(n.getData()+" --> ");
+            n=n.getNext();
+        }
     }
 }
