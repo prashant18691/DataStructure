@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ReplaceWithLeastGreatest {
-    LinkedList mHead;
+    static LinkedList mHead;
     public static void main(String[] args) {
         ReplaceWithLeastGreatest r = new ReplaceWithLeastGreatest();
         r.mHead = new LinkedList(10);
@@ -17,11 +17,11 @@ public class ReplaceWithLeastGreatest {
         r.mHead.next.next.next.next.next.next.next = new LinkedList(49);
         r.mHead.next.next.next.next.next.next.next.next = new LinkedList(37);
 //        r.printLinkedList(r.mHead);
-        LinkedList newHead =  r.replace();
-        r.printLinkedList(newHead);
+        r.replace();
+        r.printLinkedList(mHead);
 
     }
-    LinkedList replace(){
+    void replace(){
         LinkedList head = createClone(mHead);
         LinkedList reverseHead = reverseLinkedList(head);
         Map<Integer,Integer> m = new HashMap<>();
@@ -31,8 +31,7 @@ public class ReplaceWithLeastGreatest {
            m.put(reverseHead.num,greater);
            reverseHead = reverseHead.next;
         }
-        LinkedList temp = createClone(mHead);
-        LinkedList tempHead = temp;
+        LinkedList tempHead = mHead;
         while(tempHead!=null){
             Integer newNode = m.get(tempHead.num);
             if(newNode!=null){
@@ -41,7 +40,6 @@ public class ReplaceWithLeastGreatest {
             tempHead = tempHead.next;
         }
 
-        return temp;
     }
 
     private LinkedList createClone(LinkedList mHead) {
@@ -89,7 +87,7 @@ public class ReplaceWithLeastGreatest {
         if(root.data<=x) return getGreater(root.right,x);
         else {
             Integer num = getGreater(root.left, x);
-            if(num==null) //if left tree is returning take it from  inorder successor
+            if(num==null) //if left sub-tree is returning null take it from  inorder successor
                 num = root.data; //
             return num;
         }
@@ -110,20 +108,6 @@ public class ReplaceWithLeastGreatest {
         return root;
     }
 
-    private int searchIndex(int[] arr, int num) {
-        for (int i=0;i<arr.length;i++){
-            if(arr[i]==num)
-                return i;
-        }
-        return -1;
-    }
-
-    private int counNodes(LinkedList head) {
-        while(head!=null){
-            return 1+counNodes(head.next);
-        }
-        return 0;
-    }
 }
 
 class Node{

@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="83196556-2693-4442-97f2-025cd2c9a5b2" name="Default" comment="Least Surpasser in a linked list using BST">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/LuckyNumbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/PairLinkedList.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestModuloCongruence.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestRoad.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/hackerearth/practice/TestMonkCoderland.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeLinkedList.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/Trie.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/Trie.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/TrieNode.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/TrieNode.class" />
@@ -18,7 +16,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/Node.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/Node.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/DoublyLinkedList.java" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/DoublyLinkedList.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,22 +28,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PairLinkedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/PairLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="26" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MergeLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
               <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplaceWithLeastGreatest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="89" column="40" lean-forward="false" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3567#3568#0" expanded="true" />
+                <element signature="e#3599#3600#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/com/test/prs/array/MaxContiguousSubArray.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/FindTreeDiameter.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/bst/FindTreeDiameter.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/algorithms/KMPAlgo.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeSort.java" />
@@ -168,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/com/test/prs/challenges/LuckyNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/string/FindSmallestWindow.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/PairLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java" />
       </list>
     </option>
   </component>
@@ -305,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PairLinkedList">
+  <component name="RunManager" selected="Application.ReplaceWithLeastGreatest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -389,14 +391,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="PrintSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplaceWithLeastGreatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.string.*" />
+          <option name="PATTERN" value="com.test.prs.challenges.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.string.PrintSubstring" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.challenges.amazon.ReplaceWithLeastGreatest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -484,18 +486,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MergeLinkedList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PrintSubstring" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FindSmallestWindow" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LuckyNumbers" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PairLinkedList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FindSmallestWindow" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LuckyNumbers" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PairLinkedList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReplaceWithLeastGreatest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PairLinkedList" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FindSmallestWindow" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LuckyNumbers" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MergeLinkedList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PrintSubstring" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReplaceWithLeastGreatest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PairLinkedList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FindSmallestWindow" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LuckyNumbers" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MergeLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -674,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517387473990</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Merge Single and Double LinkedList">
+      <created>1517396189362</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1517396189362</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -744,7 +753,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42927632" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42927632" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -780,7 +789,8 @@
     <MESSAGE value="Find Smallest Window(Naive)" />
     <MESSAGE value="Find Smallest Window" />
     <MESSAGE value="Print All Substring of a String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print All Substring of a String" />
+    <MESSAGE value="Merge Single and Double LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge Single and Double LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,18 +848,6 @@
           <line>18</line>
           <properties />
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestModuloCongruence.java</url>
@@ -1010,6 +1008,7 @@ return text.charAt(j);</expression-string>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="8" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,22 +1125,11 @@ return text.charAt(j);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3976#3977#0" expanded="true" />
-            <element signature="e#4008#4009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,6 +1307,14 @@ return text.charAt(j);</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/PairLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1327,11 +1323,15 @@ return text.charAt(j);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/PairLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/ReplaceWithLeastGreatest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="26" lean-forward="false" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="271">
+          <caret line="89" column="40" lean-forward="false" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3567#3568#0" expanded="true" />
+            <element signature="e#3599#3600#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
