@@ -1,11 +1,10 @@
 package com.test.prs.string;
 
-import java.sql.Timestamp;
 import java.util.*;
 
 public class FindSmallestWindow {
 
-
+    static final int MAX_CHAR = 256;
     public static void findWindow(String str , String pat){
         List<String> substringList = getSubstring(str);
         List<String> possibleAns =  new ArrayList<>();
@@ -47,8 +46,43 @@ public class FindSmallestWindow {
         return substringList;
     }
 
+    public static String findWindow1(String text, String pat){// efficient
+        int n = text.length();
+        int m = pat.length();
+
+        if(n<m){
+            System.out.println("No pattern found");
+            return "";
+        }
+        int[] hash_text = new int[MAX_CHAR];
+        int[] hash_pat = new int[MAX_CHAR];
+        for(int i=0;i<m;i++)
+            hash_pat[pat.charAt(i)]++;
+
+        int count = 0, start = 0, start_index = -1, min_length = Integer.MAX_VALUE;
+        for (int j=0;j<text.length();j++){//geeksforgeeks
+            hash_text[text.charAt(j)]++; // increment for each character in text
+            if(hash_text[text.charAt(j)]<=hash_pat[text.charAt(j)])// meet min requirement
+                count++;
+            if(count==m){
+                while(hash_text[text.charAt(start)]>hash_pat[text.charAt(start)])// remove unwanted character from the window
+                    hash_text[text.charAt(start++)]--;
+                int window_length = j - start + 1;
+                if(min_length>window_length){
+                    min_length = window_length;
+                    start_index = start;
+                }
+            }
+        }
+        if(start_index==-1) {
+            System.out.println("No window exists");
+            return "";
+        }
+        return text.substring(start_index,start_index+min_length);
+    }
+
     public static void main(String[] args) {
-        findWindow("geeksforgeeks","ork");
+        System.out.println(findWindow1("THIS IS A TEST STRING","TIST"));
     }
 
 }
