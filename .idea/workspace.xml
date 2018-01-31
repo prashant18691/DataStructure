@@ -20,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" />
       <change beforePath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/DoublyLinkedList.java" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/DoublyLinkedList.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/string/FindSmallestWindow.java" afterPath="$PROJECT_DIR$/src/com/test/prs/string/FindSmallestWindow.java" />
       <change beforePath="$PROJECT_DIR$/src/com/test/prs/string/TestStringDuplicate.java" afterPath="$PROJECT_DIR$/src/com/test/prs/string/TestStringDuplicate.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -662,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517300608367</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Find Smallest Window">
+      <created>1517387392238</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1517387392238</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -766,7 +772,8 @@
     <MESSAGE value="deteck loop in linked list" />
     <MESSAGE value="Merge sort Linked List" />
     <MESSAGE value="Find Smallest Window(Naive)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find Smallest Window(Naive)" />
+    <MESSAGE value="Find Smallest Window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find Smallest Window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

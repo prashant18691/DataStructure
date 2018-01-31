@@ -1,6 +1,6 @@
 package com.test.prs.string;
 
-public class TestStringDuplicate {
+public class TestStringDuplicate {// wrong
 
     public void findDuplicates(String text){
         if(text==null)
