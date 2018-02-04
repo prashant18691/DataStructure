@@ -1,6 +1,7 @@
 package com.test.prs.challenges;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class TestPermutation {
     static void permute(String str,int l,int r){// repeated arrangements for AAC etc.
@@ -13,7 +14,7 @@ public class TestPermutation {
         }
     }
 
-    static void permute1(char[] s){// distinct
+    static void permute1(char[] s){// distinct O(n*n!)
         int size = s.length;
         Arrays.sort(s);
         boolean isFinished=false;
@@ -21,7 +22,7 @@ public class TestPermutation {
         while(!isFinished){
             System.out.println(x++ +" "+String.valueOf(s).replaceAll("\\[|\\]|\\,|\"",""));
             int i=0;
-            for(i=size-2;i>=0;--i){// rightmost char smaller than its next char;;'first char'
+            for(i=size-2;i>=0;--i){// rightmost char (s[i])smaller than its next char(s[i+1]);;'first char'
                 if(s[i]<s[i+1])
                     break;
             }
@@ -30,8 +31,15 @@ public class TestPermutation {
             else{
                 int ceilIndex = findCeilIndex(s,s[i],i+1,size-1);
                 swap(s,i,ceilIndex);
-                Arrays.sort(s,i+1,size);//sort from right of first
+               Arrays.sort(s,i+1,size);//sort from right of first O(n^2*n!)
+//                reverseArray(s,i+1,size-1);// subarray is already in non-increasing order.. reverseing it is more efficient
             }
+        }
+    }
+
+    private static void reverseArray(char[] s, int l, int h) {
+        while(l<=h){
+            swap(s,l++,h--);
         }
     }
 
