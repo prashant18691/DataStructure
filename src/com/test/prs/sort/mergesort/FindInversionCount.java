@@ -28,9 +28,8 @@ public class FindInversionCount { //elements smaller than current at RHS
         int i = l;
         int k = l;
         int j = mid+1;
-        int c = 0;
         while (i<=mid && j<=h){
-            if(temp[i]<temp[j]){
+            if(temp[i]<=temp[j]){
                 arr[k] = temp[i];
                 i++;
             }
@@ -38,7 +37,6 @@ public class FindInversionCount { //elements smaller than current at RHS
                 arr[k] = temp[j];
                 j++;
                 invCount += mid+1-i;
-                c++;
             }
             k++;
         }
@@ -51,7 +49,8 @@ public class FindInversionCount { //elements smaller than current at RHS
     }
 
     public static void main(String[] args) {
-        int arr[] = new int[]{2, 7, 5, 3, 0, 8, 1};
+        int arr[] = new int[]{1,1,1,2,2};
+        System.out.println(Arrays.toString(arr));
         FindInversionCount f = new FindInversionCount(arr.length);
         System.out.println("Number of inversions are " +f.mergeSort(arr,0,arr.length-1));
         System.out.println(Arrays.toString(arr));
