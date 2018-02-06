@@ -15,7 +15,7 @@ public class MaxContiguousSubArray {
         return max_so_far;
     }
 
-    public static int findSum2(int[] arr){
+    public static int findSum2(int[] arr){// works for negative values also
         int max_so_far =arr[0], curr_max = arr[0];
         for(int i=1;i<arr.length;i++){
             curr_max = Math.max(arr[i],arr[i]+curr_max);
