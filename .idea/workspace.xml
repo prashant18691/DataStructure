@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83196556-2693-4442-97f2-025cd2c9a5b2" name="Default" comment="Least Surpasser in a linked list using BST">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/array/FindMaxDiff.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/LuckyNumbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/LuckyNumbersSolution.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestModuloCongruence.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestMonkCoderland.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestRoad.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/hackerrank/lenskart/TestSolution.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/sort/MinMaxSort.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/Data.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/Person.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/SerializationDeserializationUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/SubClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/SuperClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestExternalize.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestInheritanceSerialization.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestSerializationDeserialization.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/Trie.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/Trie.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/TrieNode.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/TrieNode.class" />
@@ -20,8 +26,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/Node.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/Node.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/array/MaxContiguousSubArray.java" afterPath="$PROJECT_DIR$/src/com/test/prs/array/MaxContiguousSubArray.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/hackerrank/TestDPCoinChange.java" afterPath="$PROJECT_DIR$/src/com/test/prs/hackerrank/TestDPCoinChange.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,20 +49,10 @@
         <entry file="file://$PROJECT_DIR$/src/com/test/prs/hackerrank/NumberChecker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1887">
-              <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="23" />
+              <caret line="111" column="23" lean-forward="false" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestMonkCoderland.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestMonkCoderland.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/test/prs/hackerrank/TestDPCoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -166,17 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/FindCommonPoint.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/TestInheritanceException.java" />
-        <option value="$PROJECT_DIR$/src/com/test/test/TestClass.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestRoad.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/binaryindexedtree/TestBIT.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/FindTreeDiameter.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/bst/FindTreeDiameter.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/amazon/DoublyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/algorithms/KMPAlgo.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/TestLinkedListLoop.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestModuloCongruence.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/hackerearth/practice/TestMonkCoderland.java" />
@@ -217,6 +200,17 @@
         <option value="$PROJECT_DIR$/src/com/test/prs/challenges/LuckyNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/array/MaxContiguousSubArray.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/array/FindMaxDiff.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/SerializationDeserializationUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/TestSerializationDeserialization.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/Persom.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/TestExternalize.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/TestInheritanceSerialization.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/Data.java" />
       </list>
     </option>
   </component>
@@ -279,114 +273,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="binaryindexedtree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
-              <item name="surpasserCount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
-              <item name="surpasserCount" type="462c0819:PsiDirectoryNode" />
-              <item name="FindSurpasserCount.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerearth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="lenskart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="Queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-              <item name="MinMaxSort.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Thirty_DaysOfCoding" type="462c0819:PsiDirectoryNode" />
+              <item name="serialization" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -421,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindMaxDiff">
+  <component name="RunManager" selected="Application.TestProxySerialization">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -448,14 +335,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="LuckyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestExternalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.challenges.*" />
+          <option name="PATTERN" value="com.test.prs.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.challenges.LuckyNumbers" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.serialization.TestExternalize" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -467,14 +354,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInheritanceSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.sort.*" />
+          <option name="PATTERN" value="com.test.prs.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.sort.MinMax" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.serialization.TestInheritanceSerialization" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -486,14 +373,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="MinMaxSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestProxySerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.sort.*" />
+          <option name="PATTERN" value="com.test.prs.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.sort.MinMaxSort" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.serialization.TestProxySerialization" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -505,14 +392,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="TestDPCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSerializationDeserialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.hackerrank.*" />
+          <option name="PATTERN" value="com.test.prs.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.hackerrank.TestDPCoinChange" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.serialization.TestSerializationDeserialization" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -599,19 +486,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MinMax" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MinMaxSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestDPCoinChange" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LuckyNumbers" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FindMaxDiff" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FindMaxDiff" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestSerializationDeserialization" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestExternalize" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestInheritanceSerialization" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestProxySerialization" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FindMaxDiff" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LuckyNumbers" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestDPCoinChange" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MinMaxSort" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MinMax" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestProxySerialization" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestInheritanceSerialization" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestExternalize" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestSerializationDeserialization" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FindMaxDiff" />
       </list>
     </recent_temporary>
   </component>
@@ -818,7 +705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517805902633</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="uncommitted files">
+      <created>1517942334215</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1517942334215</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -828,7 +722,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -844,14 +737,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18986385" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43585527" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27467105" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -881,7 +774,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43585527" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27467105" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -890,11 +783,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42927632" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42927632" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18986385" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -904,7 +797,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sudoku Solver" />
     <MESSAGE value="Sudoku Solver #2" />
     <MESSAGE value="Matrix find max region" />
     <MESSAGE value="Kruskal MST" />
@@ -929,7 +821,8 @@
     <MESSAGE value="Least Surpasser in a linked list using BST (clean-up)" />
     <MESSAGE value="clean up" />
     <MESSAGE value="Inversion count merge count" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inversion count merge count" />
+    <MESSAGE value="uncommitted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="uncommitted files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1108,8 +1001,20 @@
           <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/test/prs/serialization/Person.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/DataInputStream.java</url>
+          <line>394</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="92" />
+      <option name="time" value="94" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1170,118 +1075,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/test/resources/input.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="10000" column="37" lean-forward="false" selection-start-line="10000" selection-start-column="37" selection-end-line="10000" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/test/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="49" column="82" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/resources/input.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/resources/output.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/input.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/spoj/TestPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/binaryindexedtree/TestBIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="152" column="14" lean-forward="false" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="627" column="28" lean-forward="false" selection-start-line="627" selection-start-column="28" selection-end-line="627" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/heap/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/map/MapEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/map/MyMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/heap/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="76" column="12" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/DualPivotQuicksort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
@@ -1397,8 +1190,8 @@
         <state relative-caret-position="194">
           <caret line="137" column="13" lean-forward="false" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
           <folding>
-            <element signature="e#24280#24281#0" expanded="true" />
-            <element signature="e#24345#24346#0" expanded="true" />
+            <element signature="e#24280#24281#0" expanded="false" />
+            <element signature="e#24345#24346#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1424,8 +1217,8 @@
         <state relative-caret-position="220">
           <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding>
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1451,14 +1244,14 @@
         <state relative-caret-position="187">
           <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#1303#1312#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#520#521#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#1303#1312#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1476,7 +1269,7 @@
         <state relative-caret-position="544">
           <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1516,7 +1309,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestMonkCoderland.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1526,11 +1319,11 @@
         <state relative-caret-position="643">
           <caret line="64" column="15" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#11760#11761#0" expanded="true" />
-            <element signature="e#11814#11815#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#11760#11761#0" expanded="false" />
+            <element signature="e#11814#11815#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1554,7 +1347,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/hackerrank/TestDPCoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1590,7 +1383,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/hackerrank/NumberChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
-          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="23" />
+          <caret line="111" column="23" lean-forward="false" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1602,9 +1395,183 @@
         <state relative-caret-position="-272">
           <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="54" />
           <folding>
-            <element signature="e#3030#3031#0" expanded="true" />
-            <element signature="e#3109#3110#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="false" />
+            <element signature="e#3109#3110#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee.ser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/SerializationDeserializationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person.ser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/DataInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="399" column="8" lean-forward="false" selection-start-line="399" selection-start-column="8" selection-end-line="399" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="396" column="0" lean-forward="false" selection-start-line="396" selection-start-column="0" selection-end-line="396" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/TestExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/TestSerializationDeserialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="34" column="85" lean-forward="false" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/TestInheritanceSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="29" column="60" lean-forward="true" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
