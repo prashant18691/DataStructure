@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83196556-2693-4442-97f2-025cd2c9a5b2" name="Default" comment="Least Surpasser in a linked list using BST">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestModuloCongruence.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestMonkCoderland.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestRoad.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/hackerrank/lenskart/TestSolution.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/Data.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/Person.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/SerializationDeserializationUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/SubClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/SuperClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestExternalize.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestInheritanceSerialization.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestSerializationDeserialization.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/SingletonClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestSerializationSingleton.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/Trie.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/Trie.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/TrieNode.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/autoCompletion/TrieNode.class" />
@@ -26,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/Node.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/Node.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeap.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" afterPath="$PROJECT_DIR$/out/production/Test/com/test/prs/heap/TestHeapify.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java" afterPath="$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -160,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/TestLinkedListLoop.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/hackerearth/TestModuloCongruence.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/hackerearth/practice/TestMonkCoderland.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/string/TestStringDuplicate.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/string/PrintSubstring.java" />
@@ -209,8 +201,10 @@
         <option value="$PROJECT_DIR$/src/com/test/prs/serialization/SuperClass.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/serialization/SubClass.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/serialization/TestInheritanceSerialization.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/serialization/Data.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/TestSerializationSingleton.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/serialization/SingletonClass.java" />
       </list>
     </option>
   </component>
@@ -219,6 +213,106 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -285,7 +379,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="max&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/array/MaxContiguousSubArray.java&#10;Permutat&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestPermutation.java&#10;subs&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/string/PrintSubstring.java&#10;inver&#9;PSI&#9;JAVA://com.test.prs.sort.mergesort.FindInversionCount&#10;Bst&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/bst&#10;BST&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/bst&#10;Queue&#9;PSI&#9;JAVA://com.test.prs.Queue.ImplementQueueUsing2Stacks&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Map&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Map.java&#10;permutatio&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestStringPermutation.java&#10;permu&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestPermutation.java&#10;Tree&#9;PSI&#9;JAVA://sun.jvm.hotspot.ui.treetable.TreeTableModelAdapter#tree&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;Binary&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/jdk.compiler/com/sun/source/tree/BinaryTree.java&#10;Binary Tr&#9;PSI&#9;JAVA://com.sun.source.tree.BinaryTree&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java&#10;java.util.LinkedLis&#9;PSI&#9;JAVA://java.util.LinkedList&#10;Linked&#9;PSI&#9;JAVA://com.test.prs.linkedlist.LinkedList&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -308,32 +402,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestProxySerialization">
+  <component name="RunManager" selected="Application.TestSerializationSingleton">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="FindMaxDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.test.prs.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.array.FindMaxDiff" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Test" />
-      <envs />
     </configuration>
     <configuration name="TestExternalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -400,6 +475,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.test.prs.serialization.TestSerializationDeserialization" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Test" />
+      <envs />
+    </configuration>
+    <configuration name="TestSerializationSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.test.prs.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.serialization.TestSerializationSingleton" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -486,19 +580,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FindMaxDiff" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestSerializationDeserialization" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestExternalize" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestInheritanceSerialization" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestProxySerialization" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestSerializationDeserialization" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestExternalize" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestInheritanceSerialization" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestProxySerialization" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestSerializationSingleton" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestProxySerialization" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestInheritanceSerialization" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestExternalize" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestSerializationDeserialization" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FindMaxDiff" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestSerializationSingleton" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestProxySerialization" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestInheritanceSerialization" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestExternalize" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestSerializationDeserialization" />
       </list>
     </recent_temporary>
   </component>
@@ -712,7 +806,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517942334215</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Serialization-Deserialization">
+      <created>1517991636324</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1517991636324</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -722,6 +823,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -732,12 +834,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42927632" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42927632" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18986385" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3184569" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,11 +885,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42927632" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42927632" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18986385" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3184569" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -797,7 +899,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sudoku Solver #2" />
     <MESSAGE value="Matrix find max region" />
     <MESSAGE value="Kruskal MST" />
     <MESSAGE value="Isomorphic trees" />
@@ -822,7 +923,8 @@
     <MESSAGE value="clean up" />
     <MESSAGE value="Inversion count merge count" />
     <MESSAGE value="uncommitted files" />
-    <option name="LAST_COMMIT_MESSAGE" value="uncommitted files" />
+    <MESSAGE value="Serialization-Deserialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serialization-Deserialization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1075,22 +1177,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="2036" column="16" lean-forward="false" selection-start-line="2036" selection-start-column="16" selection-end-line="2036" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/jdk.compiler/com/sun/source/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/jdk.compiler/com/sun/source/tree/ExpressionTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1522,21 +1608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/SubClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="34" column="85" lean-forward="false" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/TestInheritanceSerialization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1570,7 +1641,43 @@
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/TestProxySerialization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="88" lean-forward="true" selection-start-line="4" selection-start-column="88" selection-end-line="5" selection-end-column="71" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/SingletonClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/serialization/TestSerializationSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

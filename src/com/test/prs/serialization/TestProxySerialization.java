@@ -20,5 +20,6 @@ public class TestProxySerialization {
             e.printStackTrace();
         }
         System.out.println(newData);
+        System.out.println(data.hashCode()+" "+newData.hashCode());
     }
 }
