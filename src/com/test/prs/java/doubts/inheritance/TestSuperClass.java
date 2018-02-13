@@ -1,4 +1,4 @@
-package com.test.prs.java.doubts;
+package com.test.prs.java.doubts.inheritance;
 
 import com.test.prs.java.doubts.threads.SubClass;
 import com.test.prs.java.doubts.threads.SuperClass;

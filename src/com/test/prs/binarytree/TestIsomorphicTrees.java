@@ -1,4 +1,6 @@
-package com.test.prs.bst;
+package com.test.prs.binarytree;
+
+import com.test.prs.binarytree.Node;
 
 public class TestIsomorphicTrees {
     static Node root1, root2;

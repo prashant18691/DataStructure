@@ -1,4 +1,4 @@
-package com.test.prs.javaReferences;
+package com.test.prs.java.doubts.javaReferences;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;

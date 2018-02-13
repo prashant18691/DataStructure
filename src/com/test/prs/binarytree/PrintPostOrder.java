@@ -1,4 +1,4 @@
-package com.test.prs.bst;
+package com.test.prs.binarytree;
 
 import java.util.Arrays;
 
