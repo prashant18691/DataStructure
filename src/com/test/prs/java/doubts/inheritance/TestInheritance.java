@@ -41,6 +41,9 @@ class Person {
                         + 	"\nID: " + idNumber);
     }
 
+    public final void d(){}
+    public final void d(int d){}
+
 }
 
 class Student extends Person{

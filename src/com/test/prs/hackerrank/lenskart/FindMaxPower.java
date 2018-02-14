@@ -12,7 +12,7 @@ import java.util.*;
 
 // Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
 
-class TestSolution {
+class FindMaxPower {
     public static void main(String args[] ) throws Exception {
         Scanner s = new Scanner(System.in);
         // Writing output to STDOUT
@@ -28,28 +28,21 @@ class TestSolution {
 
     }
 
-    private static int solve(int[] arr){
+    private static int solve(int[] elements){
 
-        if(arr.length==2){
-            return Math.abs(arr[1]-arr[0]);
+        int max = elements[1];
+        int min = elements[0];
+        int max_diff = Math.abs(max-min);
+        for(int i =0;i<elements.length;i++){
+            if(elements[i]<min)
+                min = elements[i];
+            if(elements[i]>max)
+                max = elements[i];
+            int diff = Math.abs(max-min);
+            if(diff>max_diff)
+                max_diff = diff;
         }
-        int maxDiff = -1;
-        int n = arr.length;
-        int maxRight = arr[n-1];
-        int min = arr[n-1];
-
-        for (int i = n-2; i >= 0; i--)
-        {
-            if(arr[i]<min)
-                min=arr[i];
-            if (arr[i] > maxRight){
-                maxRight = arr[i];
-            }
-           int diff = maxRight - min;
-            if(diff>maxDiff)
-                maxDiff =diff;
-        }
-        return maxDiff;
+        return max_diff;
     }
 
 }
