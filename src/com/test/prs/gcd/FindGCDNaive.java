@@ -2,7 +2,7 @@ package com.test.prs.gcd;
 
 import java.util.Scanner;
 
-public class FindGCD {
+public class FindGCDNaive {
     public static int findGCD(int a, int b){
         while(a!=b){
             if(a>b)

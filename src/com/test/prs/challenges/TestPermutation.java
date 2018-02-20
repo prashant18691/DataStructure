@@ -66,7 +66,7 @@ public class TestPermutation {
     }
 
     public static void main(String[] args) {
-        String str = "ACBC";
+        String str = "1234";
 //        TestPermutation.permute(str,0,str.length()-1);
         TestPermutation.permute1(str.toCharArray());
     }

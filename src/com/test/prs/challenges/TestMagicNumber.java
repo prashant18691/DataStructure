@@ -5,7 +5,7 @@ public class TestMagicNumber {
        int pow = 1,answer = 0;
        while (n!=0){
            pow*=5;
-           if((n&1)==1)
+           if((n&1)==1)// bit AND operation
                answer+=pow;
            n>>=1;
        }

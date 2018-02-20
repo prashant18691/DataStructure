@@ -43,7 +43,7 @@ public class ConnectRightSiblings {
             }
             else
                 node.left.nextRight = getNextRight(node);
-            connectRecurr(node.left);
+            connectRecurr(node.left);// left calls to right also
         }
         else if (node.right!=null){
             node.right.nextRight = getNextRight(node);

@@ -5,6 +5,7 @@ package com.test.prs.java.doubts.threads;
 public class PrintMultiples345{
     int count ;
     int max ;
+    int flag = 0;
 
     public PrintMultiples345(int count, int max) {
         this.count = count;
@@ -15,20 +16,24 @@ public class PrintMultiples345{
         synchronized (this){
             while (count<=max){
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(1000);
+                    while(count%3!=0) {
+                        flag++;
+                        if (flag==3) {
+                            count++;
+                            flag =0;
+                            notifyAll();
+                        }
+                        else if (count<=max)
+                        wait();
+                    }
+                    flag =0;
+                    if (count<=max)
+                    System.out.println(Thread.currentThread().getName() + " "+count++);
+                    notifyAll();
                 } catch (InterruptedException e1) {
                     e1.printStackTrace();
                 }
-                while(count%3!=0) {
-                    try {
-                        wait();
-                    } catch (InterruptedException e1) {
-                    e1.printStackTrace();
-                    }
-                }
-                    System.out.println(Thread.currentThread().getName()+" " + count++);
-                    notifyAll();
-
             }
         }
     }
@@ -37,20 +42,24 @@ public class PrintMultiples345{
         synchronized (this){
             while (count<=max){
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(1000);
+                    while(count%4!=0) {
+                        flag++;
+                        if (flag==3) {
+                            count++;
+                            flag =0;
+                            notifyAll();
+                        }
+                        else if (count<=max)
+                        wait();
+                    }
+                    flag =0;
+                    if (count<=max)
+                    System.out.println(Thread.currentThread().getName() + " "+count++);
+                    notifyAll();
                 } catch (InterruptedException e1) {
                     e1.printStackTrace();
                 }
-                while(count%4!=0) {
-                    try {
-                        wait();
-                    } catch (InterruptedException e1) {
-                        e1.printStackTrace();
-                    }
-                }
-                System.out.println(Thread.currentThread().getName()+" " + count++);
-                notifyAll();
-
             }
         }
     }
@@ -59,26 +68,30 @@ public class PrintMultiples345{
         synchronized (this){
             while (count<=max){
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(1000);
+                    while(count%5!=0) {
+                        flag++;
+                        if (flag==3) {
+                            count++;
+                            flag =0;
+                            notifyAll();
+                        }
+                        else if (count<=max)
+                        wait();
+                    }
+                    flag =0;
+                    if (count<=max)
+                    System.out.println(Thread.currentThread().getName() + " "+count++);
+                    notifyAll();
                 } catch (InterruptedException e1) {
                     e1.printStackTrace();
                 }
-                while(count%5!=0) {
-                    try {
-                        wait();
-                    } catch (InterruptedException e1) {
-                        e1.printStackTrace();
-                    }
-                }
-                System.out.println(Thread.currentThread().getName()+" " + count++);
-                notifyAll();
-
             }
         }
     }
 
     public static void main(String[] args) {
-        PrintMultiples345 printMultiples345 = new PrintMultiples345(3,20);
+        PrintMultiples345 printMultiples345 = new PrintMultiples345(1,20);
         Thread t3 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -101,9 +114,9 @@ public class PrintMultiples345{
         t4.start();
         t5.start();
         try {
-        t3.join();
-        t4.join();
-        t5.join();
+            t3.join();
+            t4.join();
+            t5.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
