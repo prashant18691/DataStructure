@@ -3,8 +3,6 @@ package com.test.prs.challenges.freshworks;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Arrays;
-
 public class SumNumbers {
     public static String sum(String a, String b){
         if (a==null && b==null)

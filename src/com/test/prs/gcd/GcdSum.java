@@ -17,7 +17,7 @@ public class GcdSum {
 
     }
 
-    void compute_phi() {
+    void compute_phi() {// calculate no of  coprimes less than n ; Euler’s Totient function
         for(int i = 1; i <= MAXV; i++) phi[i] = i;
         for(int i = 2; i <= MAXV; i++)
             if (phi[i] == i) { // prime number
