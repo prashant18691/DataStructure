@@ -6,13 +6,19 @@ public class MergeLinkedList {
     void mergeList(LinkedList h1, LinkedList h2){
         int count_h1 = countNodes(h1);
         int count_h2 = countNodes(h2);
-        if(count_h1>count_h2)
-        merge(h1, h2);
-        else
-            merge(h2,h1);
+        LinkedList bigLL = merge(h1, h2);
+        if(count_h1<count_h2){
+            while (h1.getNext()!=null)
+                h1 = h1.getNext();
+            while (bigLL!=null){
+                h1.setNext(bigLL);
+                h1 = h1.getNext();
+                bigLL = bigLL.getNext();
+            }
+        }
     }
 
-    private void merge(LinkedList h1, LinkedList h2) {
+    private LinkedList merge(LinkedList h1, LinkedList h2) {
         LinkedList n1 = h1;
         LinkedList n2 = h2;
         while(n1!=null && n2!=null){
@@ -23,6 +29,7 @@ public class MergeLinkedList {
             n1 = n1.getNext().getNext();
             n2 = h2;
         }
+        return n2;
     }
 
     private int countNodes(LinkedList n){
@@ -50,13 +57,13 @@ public class MergeLinkedList {
         l1.push(5);
         l1.push(4);
 //        System.out.println();
-        l.printList(l1.head);
+//        l.printList(l1.head);
         System.out.println();
         System.out.println(" After merging");
         l.mergeList(l.head,l1.head);
 //        l.printList(l.head);
 //        System.out.println();
-        l.printList(l1.head);
+        l.printList(l.head);
 
     }
 

@@ -7,12 +7,9 @@ public class RemoveDuplicates {
         LinkedList temp = head;
         while(temp!=null && temp.getNext()!=null){
             if(temp.getData()==temp.getNext().getData())
-                count++;
-                while(count>0){
-                    temp.setNext(temp.getNext().getNext());
-                    count--;
-                }
-            temp = temp.getNext();
+                temp.setNext(temp.getNext().getNext());
+            else
+                temp = temp.getNext();
         }
         return head;
     }
