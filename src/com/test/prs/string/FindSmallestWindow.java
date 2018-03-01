@@ -66,12 +66,13 @@ public class FindSmallestWindow {
                 count++;
             if(count==m){
                 while(hash_text[text.charAt(start)]>hash_pat[text.charAt(start)])// remove unwanted character from the window
-                    hash_text[text.charAt(start++)]--;
+                    hash_text[text.charAt(start++)]--;// THIS IS A TEST STRING TIST
                 int window_length = j - start + 1;
                 if(min_length>window_length){
                     min_length = window_length;
                     start_index = start;
                 }
+          //      System.out.println(text.substring(start_index,start_index+min_length)+" "+text.charAt(j));
             }
         }
         if(start_index==-1) {
