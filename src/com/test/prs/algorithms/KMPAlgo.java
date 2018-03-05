@@ -1,5 +1,6 @@
 package com.test.prs.algorithms;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class KMPAlgo {
@@ -45,7 +46,7 @@ public class KMPAlgo {
                 }
             }
         }
-//        System.out.println(Arrays.toString(lps));
+        System.out.println(Arrays.toString(lps));
     }
 
     public static void main(String[] args) {
