@@ -1,9 +1,9 @@
 package com.test.test;
 
-import com.sun.javafx.tools.packager.Main;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import sun.applet.Main;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
