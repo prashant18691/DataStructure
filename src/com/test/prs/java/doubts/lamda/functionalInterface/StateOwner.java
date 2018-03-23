@@ -1,4 +1,4 @@
-package com.test.prs.java.doubts.functionalInterfacelambda;
+package com.test.prs.java.doubts.lamda.functionalInterface;
 
 public class StateOwner {
 

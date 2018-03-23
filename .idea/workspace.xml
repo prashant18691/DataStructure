@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83196556-2693-4442-97f2-025cd2c9a5b2" name="Default" comment="Least Surpasser in a linked list using BST">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/State.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateChangeListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateOwner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/TestFunctionalMethod.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/stack/FindGreatestRectangle.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="83196556-2693-4442-97f2-025cd2c9a5b2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/array/MediansInTwoSortedArrays.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Adapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/AdapterImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Socket.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/TestAdapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Volt.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/BasicCar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/Car.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/CarDecorator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/LuxuryCar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/SportsCar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/TestDecoratorPattern.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/defaultMethods/Interface1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/defaultMethods/Interface2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/defaultMethods/MyClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/function/MyFunction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/staticmethod/MyData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/staticmethod/MyDataImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/stack/TextEditor.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/AbstractEmployee.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/Employee.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/Employee.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/HREmp.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/HREmp.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/PayrollEmp.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/PayrollEmp.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/TestAbstractClass.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/TestAbstractClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/State.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/State.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateChangeListener.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/StateChangeListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateOwner.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/StateOwner.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/TestFunctionalMethod.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/TestFunctionalMethod.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,58 +53,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GcdSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/gcd/GcdSum.java">
+      <file leaf-file-name="TestAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/TestAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+            <state relative-caret-position="198">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LFUCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/lfucache/LFUCache.java">
+      <file leaf-file-name="AdapterImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/AdapterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="971">
-              <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="66">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestFunctionalMethod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/TestFunctionalMethod.java">
+      <file leaf-file-name="Adapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Adapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+            <state relative-caret-position="165">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindGreatestRectangle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/stack/FindGreatestRectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerServiceCapacity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/booking/com/CustomerServiceCapacity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -148,47 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/proxy/CommandExecutor.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/proxy/CommandExecutorProxy.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/proxy/CommandExecutorImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/proxy/TestProxy.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/TestPermutation.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/gcd/FindGCDEfficient.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/freshworks/MultiplyNumbers.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/threads/PrintMultipleOfNumbers.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/threads/MultipleOfNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/threads/PrintMultiples345.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/threads/ThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/binarytree/BalanceTree.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/array/FindMaxDiff.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/booking/com/SortReviews.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/gcd/GcdSum.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/TwoSums.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/string/EvaluateExpression.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/RemoveDulicates.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/NesedLogic.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/booking/com/CustomerServiceCapacity.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/string/UrlShortner.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/string/urlshortner/UrlShortner.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/Queue/EqualQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/string/urlshortner/UrlShortnerComplex.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/freshworks/SumNumbers.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/lfucache/LFUCache.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/lfucache/TestLFUCache.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/challenges/FindMedian.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/string/FindSmallestWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/RemoveDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/sort/mergesort/FindInversionCount.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/algorithms/KMPAlgo.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/HREmp.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/PayrollEmp.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/AbstractEmployee.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/TestAbstractClass.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/avltree/AVLTree.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeSortedLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/SkipMDeleteN.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/RotateLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/linkedlist/SplitDoublyLL.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/hashtable/Hashtable.java" />
@@ -199,6 +161,47 @@
         <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/TestFunctionalMethod.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateChangeListener.java" />
         <option value="$PROJECT_DIR$/src/com/test/prs/stack/FindGreatestRectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/ex1/TestFunctionalMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/ex2/Interface1.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/ex2/Interface2.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/ex2/MyClass.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/staticmethod/MyClass.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/staticmethod/MyDataImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/staticmethod/MyData.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/HRInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/PayrollInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/EmployeeAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/BankDetails.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/CreditCard.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/AdapterPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/BankCustomer.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/function/MyFunction.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/AbstractEmployee.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/array/MediansInTwoArrays.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/array/MediansInTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/RowingBoat.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/TestAdapterPattern.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/stack/TextEditor.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/HREmp.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/PayrollEmp.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/TestAbstractClass.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/BasicCar.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/SportsCar.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/LuxuryCar.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/FishingBoatAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/FishingBoat.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/CarDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/TestDecoratorPattern.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/Captain.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex1/TestAdapterPattern.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Volt.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Socket.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/TestAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/AdapterImpl.java" />
       </list>
     </option>
   </component>
@@ -324,6 +327,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,7 +362,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -363,7 +370,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="avltree" type="462c0819:PsiDirectoryNode" />
+              <item name="bst" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -371,8 +378,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="avltree" type="462c0819:PsiDirectoryNode" />
-              <item name="AVLTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="bst" type="462c0819:PsiDirectoryNode" />
+              <item name="surpasserCount" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -380,7 +387,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="gcd" type="462c0819:PsiDirectoryNode" />
+              <item name="bst" type="462c0819:PsiDirectoryNode" />
+              <item name="surpasserCount" type="462c0819:PsiDirectoryNode" />
+              <item name="FindSurpasserCount.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="prs" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="prs" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="prs" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="ex2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -397,61 +433,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="prs" type="462c0819:PsiDirectoryNode" />
               <item name="doubts" type="462c0819:PsiDirectoryNode" />
-              <item name="functionalInterfacelambda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="lfucache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-              <item name="SplitDoublyLL.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="prs" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="java.util.Map&#9;PSI&#9;JAVA://java.util.Map&#10;Linked&#9;PSI&#9;JAVA://com.test.prs.linkedlist.MergeLinkedList&#10;linked&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/linkedlist&#10;ThreadPool&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java&#10;ExecutorSer&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;MyMap&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/map/MyMap.java&#10;TestMap&#9;PSI&#9;JAVA://com.test.prs.challenges.TestMap&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;java.lang.String&#9;PSI&#9;JAVA://java.lang.String&#10;Object&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Object.java&#10;File&#9;PSI&#9;JAVA://java.io.File&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;max&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/array/MaxContiguousSubArray.java&#10;Permutat&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestPermutation.java&#10;subs&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/string/PrintSubstring.java&#10;inver&#9;PSI&#9;JAVA://com.test.prs.sort.mergesort.FindInversionCount&#10;Bst&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/bst&#10;BST&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/bst&#10;Queue&#9;PSI&#9;JAVA://com.test.prs.Queue.ImplementQueueUsing2Stacks&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Map&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Map.java&#10;permutatio&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestStringPermutation.java&#10;permu&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestPermutation.java&#10;Tree&#9;PSI&#9;JAVA://sun.jvm.hotspot.ui.treetable.TreeTableModelAdapter#tree&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;Binary&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/jdk.compiler/com/sun/source/tree/BinaryTree.java&#10;Binary Tr&#9;PSI&#9;JAVA://com.sun.source.tree.BinaryTree&#10;Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Arrays.java&#10;java.util.LinkedLis&#9;PSI&#9;JAVA://java.util.LinkedList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Paypal/Workspace/disputeresolutionserv/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="Arrays&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Arrays.class&#10;java.util.Map&#9;PSI&#9;JAVA://java.util.Map&#10;Linked&#9;PSI&#9;JAVA://com.test.prs.linkedlist.MergeLinkedList&#10;linked&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/linkedlist&#10;ThreadPool&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java&#10;ExecutorSer&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;MyMap&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/map/MyMap.java&#10;TestMap&#9;PSI&#9;JAVA://com.test.prs.challenges.TestMap&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;java.lang.String&#9;PSI&#9;JAVA://java.lang.String&#10;Object&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Object.java&#10;File&#9;PSI&#9;JAVA://java.io.File&#10;ThreadLocal&#9;PSI&#9;JAVA://java.lang.ThreadLocal&#10;max&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/array/MaxContiguousSubArray.java&#10;Permutat&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestPermutation.java&#10;subs&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/string/PrintSubstring.java&#10;inver&#9;PSI&#9;JAVA://com.test.prs.sort.mergesort.FindInversionCount&#10;Bst&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/bst&#10;BST&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/bst&#10;Queue&#9;PSI&#9;JAVA://com.test.prs.Queue.ImplementQueueUsing2Stacks&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Map&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Map.java&#10;permutatio&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestStringPermutation.java&#10;permu&#9;FILE&#9;file://E:/Prashant/Workspace/DataStructure/src/com/test/prs/challenges/TestPermutation.java&#10;Tree&#9;PSI&#9;JAVA://sun.jvm.hotspot.ui.treetable.TreeTableModelAdapter#tree&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;Binary&#9;FILE&#9;jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/jdk.compiler/com/sun/source/tree/BinaryTree.java&#10;Binary Tr&#9;PSI&#9;JAVA://com.sun.source.tree.BinaryTree&#10;java.util.LinkedLis&#9;PSI&#9;JAVA://java.util.LinkedList" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
@@ -479,7 +471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindGreatestRectangle">
+  <component name="RunManager" selected="Application.TestAdapter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -487,14 +479,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="AddFractions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAbstractClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.array.*" />
+          <option name="PATTERN" value="com.test.prs.java.doubts.abstractClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.array.AddFractions" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.java.doubts.abstractClass.TestAbstractClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -506,14 +498,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="FindGreatestRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.stack.*" />
+          <option name="PATTERN" value="com.test.prs.designpattern.adapter.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.stack.FindGreatestRectangle" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.designpattern.adapter.ex2.TestAdapter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -525,14 +517,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="Hashtable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAdapterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.hashtable.*" />
+          <option name="PATTERN" value="com.test.prs.designpattern.adapter.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.hashtable.Hashtable" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.designpattern.adapter.ex1.TestAdapterPattern" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -544,14 +536,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDecoratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.linkedlist.*" />
+          <option name="PATTERN" value="com.test.prs.designpattern.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.linkedlist.RotateLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.designpattern.decorator.TestDecoratorPattern" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -563,14 +555,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="TestFunctionalMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.test.prs.java.doubts.functionalInterfacelambda.*" />
+          <option name="PATTERN" value="com.test.prs.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.prs.java.doubts.functionalInterfacelambda.TestFunctionalMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.test.prs.challenges.TwoSums" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -682,19 +674,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RotateLinkedList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Hashtable" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AddFractions" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestFunctionalMethod" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FindGreatestRectangle" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestAdapterPattern" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TwoSums" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestAbstractClass" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestDecoratorPattern" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestAdapter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FindGreatestRectangle" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestFunctionalMethod" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AddFractions" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Hashtable" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RotateLinkedList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestAdapter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestDecoratorPattern" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestAdapterPattern" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestAbstractClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TwoSums" />
       </list>
     </recent_temporary>
   </component>
@@ -1020,10 +1012,35 @@
       <option name="project" value="LOCAL" />
       <updated>1520931947082</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Greatest rectngle in a histogram">
+      <created>1520966739013</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1520966739013</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="MyFunction - 2018.03.14 at 12h 13m 42s.xml">
+      <configuration name="MyFunction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFunction - 2018.03.14 at 12h 19m 07s.xml">
+      <configuration name="MyFunction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFunction_test - 2018.03.14 at 12h 13m 14s.xml">
+      <configuration name="MyFunction.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFunction_test - 2018.03.14 at 12h 13m 25s.xml">
+      <configuration name="MyFunction.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFunction_test1 - 2018.03.14 at 12h 19m 22s.xml">
+      <configuration name="MyFunction.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFunction_test1 - 2018.03.14 at 12h 19m 36s.xml">
+      <configuration name="MyFunction.test1" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="SumNumbers_check - 2018.02.21 at 13h 41m 14s.xml">
       <configuration name="SumNumbers.check" configurationId="JUnit" />
     </history-entry>
@@ -1046,12 +1063,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45146927" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45146927" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25728154" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27508092" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1072,47 +1089,11 @@
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3330365" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268032" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45146927" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25728154" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deteck loop in linked list" />
     <MESSAGE value="Merge sort Linked List" />
     <MESSAGE value="Find Smallest Window(Naive)" />
     <MESSAGE value="Find Smallest Window" />
@@ -1137,7 +1118,8 @@
     <MESSAGE value="AVL Tree deletion" />
     <MESSAGE value="Linked List rotation, split, etc" />
     <MESSAGE value="Add Fraction in simplest form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Fraction in simplest form" />
+    <MESSAGE value="Greatest rectngle in a histogram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Greatest rectngle in a histogram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1574,8 +1556,14 @@
           <properties />
           <option name="timeStamp" value="242" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/test/prs/stack/TextEditor.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="243" />
+      <option name="time" value="245" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1639,358 +1627,330 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>String.valueOf(s.charAt(1))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.charAt(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>k-1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>k</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.charAt(k-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/heap/Heap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/staticmethod/MyData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="84" column="16" lean-forward="false" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/FindMedian.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/defaultMethods/MyClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="66">
+          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/heap/FindMedianHeap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/TestFunctionalMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/heap/FindMedianHeapCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/codeChef/challenge/FindKthCheapest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-698">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/string/FindSmallestWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/string/WindowContainingDistinctStringCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/RemoveDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/TestMaxMin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
+        <state relative-caret-position="66">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/TestLinkedListInversion.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="-2130">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/sort/mergesort/FindInversionCount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/PayrollInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/HRInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/Employee.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/EmployeeAdapter.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/TestLinkedListLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/autoCompletion/TestTrie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/bst/surpasserCount/FindSurpasserCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/amazon/PairLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/heap/MergeKSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/algorithms/KMPAlgo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/lfucache/TestLFUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/threads/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/binaryindexedtree/TestBIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/hackerrank/TestSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="74" lean-forward="false" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/PayrollEmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/HREmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/AbstractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/TestAbstractClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/booking/com/CustomerServiceCapacity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/gcd/GcdSum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/BankDetails.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/CreditCard.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/AdapterPatternDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/hackerrank/TestDPCoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/MergeSortedLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/BankCustomer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="2065" column="18" lean-forward="false" selection-start-line="2065" selection-start-column="18" selection-end-line="2065" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/function/MyFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/RotateLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/SkipMDeleteN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/SplitDoublyLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/map/MapEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/map/MyMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="235" column="23" lean-forward="false" selection-start-line="235" selection-start-column="23" selection-end-line="235" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/map/TestMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/gcd/FindGCDNaive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/test/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/array/AddFractions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="e#3050#3051#0" expanded="true" />
-            <element signature="e#3079#3080#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/hashtable/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
-          <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-          <folding>
-            <element signature="e#390#391#0" expanded="false" />
-            <element signature="e#422#423#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/avltree/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
-          <caret line="179" column="20" lean-forward="false" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="410">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/lfucache/LFUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
+        <state relative-caret-position="1221">
           <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/LuckyNumbersSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="3811" column="8" lean-forward="false" selection-start-line="3811" selection-start-column="8" selection-end-line="3811" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/Arrays.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1681">
+          <caret line="2076" column="29" lean-forward="true" selection-start-line="2076" selection-start-column="29" selection-end-line="2076" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/challenges/TwoSums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/linkedlist/TestLinkedListLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/stack/TextEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/State.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="360">
+          <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/stack/FindGreatestRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/AbstractEmployee.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/array/MediansInTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/codeChef/challenge/FindPrimeDiff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="971">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <element signature="e#151#152#0" expanded="false" />
-            <element signature="e#184#185#0" expanded="false" />
-            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateOwner.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/PayrollEmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/TestAbstractClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/HREmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/proxy/CommandExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/proxy/CommandExecutorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/proxy/CommandExecutorProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/BasicCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/SportsCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/LuxuryCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/TestDecoratorPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/CarDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex1/Captain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1998,45 +1958,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/NesedLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex1/FishingBoat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="-15">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex1/RowingBoat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="951" column="45" lean-forward="false" selection-start-line="951" selection-start-column="45" selection-end-line="951" selection-end-column="45" />
+        <state relative-caret-position="-15">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateChangeListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex1/TestAdapterPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/TestFunctionalMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex1/FishingBoatAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/stack/FindGreatestRectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="56" />
+        <state relative-caret-position="132">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/AdapterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Volt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/TestAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
