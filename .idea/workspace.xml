@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83196556-2693-4442-97f2-025cd2c9a5b2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/array/MediansInTwoSortedArrays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Adapter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/AdapterImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Socket.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/TestAdapter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Volt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/BasicCar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/Car.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/CarDecorator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/LuxuryCar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/SportsCar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/designpattern/decorator/TestDecoratorPattern.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/defaultMethods/Interface1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/defaultMethods/Interface2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/defaultMethods/MyClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/function/MyFunction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/staticmethod/MyData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/staticmethod/MyDataImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/prs/stack/TextEditor.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/AbstractEmployee.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/Employee.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/HREmp.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/HREmp.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/PayrollEmp.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/PayrollEmp.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/TestAbstractClass.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/abstractClass/TestAbstractClass.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/State.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/State.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateChangeListener.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/StateChangeListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/StateOwner.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/StateOwner.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/prs/java/doubts/functionalInterfacelambda/TestFunctionalMethod.java" afterPath="$PROJECT_DIR$/src/com/test/prs/java/doubts/lamda/functionalInterface/TestFunctionalMethod.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,45 +24,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestAdapter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/TestAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdapterImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/AdapterImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-              <folding>
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Adapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Adapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -416,7 +350,7 @@
               <item name="prs" type="462c0819:PsiDirectoryNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
               <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
+              <item name="ex1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -1019,7 +953,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520966739013</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Design pattern">
+      <created>1521820380518</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1521820380518</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1053,7 +994,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2586" height="1386" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1068,7 +1008,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27508092" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27508092" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1094,7 +1034,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge sort Linked List" />
     <MESSAGE value="Find Smallest Window(Naive)" />
     <MESSAGE value="Find Smallest Window" />
     <MESSAGE value="Print All Substring of a String" />
@@ -1119,7 +1058,8 @@
     <MESSAGE value="Linked List rotation, split, etc" />
     <MESSAGE value="Add Fraction in simplest form" />
     <MESSAGE value="Greatest rectngle in a histogram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Greatest rectngle in a histogram" />
+    <MESSAGE value="Design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2001,29 +1941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/AdapterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Volt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -2043,6 +1960,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/AdapterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/prs/designpattern/adapter/ex2/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
