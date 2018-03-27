@@ -1,7 +1,7 @@
 package com.test.prs.avltree;
 
 public class AVLTree {
-    Node root;
+    public Node root;
     public Node insert(Node node,int data){
         if (node==null)
             return new Node(data);
@@ -26,6 +26,17 @@ public class AVLTree {
             return leftRotate(node);
         }
         return node; }
+
+        public boolean search(Node node, int k){
+            if (node==null)
+                return false;
+            if (node.data==k)
+                return true;
+            else if (k<node.data)
+                return search(node.left,k);
+            else
+                return search(node.right,k);
+        }
 
     public Node delete(Node node, int data){
         if (node==null)
