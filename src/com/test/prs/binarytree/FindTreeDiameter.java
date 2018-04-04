@@ -1,7 +1,5 @@
 package com.test.prs.binarytree;
 
-import com.test.prs.binarytree.Node;
-
 public class FindTreeDiameter {
     /*The diameter of a tree T is the largest of the following quantities:
       the diameter of T’s left subtree

@@ -1,7 +1,7 @@
 package com.test.prs.bst.impl;
 
 public class BST {
-    Node root;
+    public Node root;
     public Node add(Node node, int k){
         if (node==null)
             return new Node(k);
