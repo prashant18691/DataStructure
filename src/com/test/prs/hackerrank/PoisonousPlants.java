@@ -1,10 +1,8 @@
 package com.test.prs.hackerrank;
 
-import java.util.LinkedList;
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
-public class PoisonousPlants {
+/*public class PoisonousPlants {
     public static int solve(int[] p){
         Stack<LinkedList<Integer>> stack = new Stack<>();
         LinkedList<Integer> list = new LinkedList<>();
@@ -26,12 +24,12 @@ public class PoisonousPlants {
                 stack.get(k).removeFirst();
                 if (stack.get(k).size()==0)
                     stack.remove(k);
-                /*
+                *//*
                 LinkedList l = stack.get(k);
                 l.removeFirst();
                 if (l.size() == 0)
                     stack.remove(k);
-                    */
+                    *//*
             }
             mergeStack(stack);
             noOfDays++;
@@ -63,12 +61,11 @@ public class PoisonousPlants {
         System.out.println(result);
         in.close();
     }
-}
+}*/
 
 
-/*
 
-public class Solution {
+public class PoisonousPlants {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -104,7 +101,7 @@ public class Solution {
 			}
 
 			List<LinkList> nextParts = new ArrayList<LinkList>();
-			for (LinkList part : parts) {
+			for (LinkList part : parts) { //6>5, 4, null, 9
 				if (part.head == null) {
 					continue;
 				}
@@ -159,4 +156,3 @@ class LinkList {
 	}
 }
 
- */
