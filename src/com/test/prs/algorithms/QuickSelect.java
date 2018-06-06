@@ -1,5 +1,5 @@
 package com.test.prs.algorithms;
-
+//O(n)
 public class QuickSelect {
     public static int findKthSmallest(int[] arr, int indexFirst, int indexLast, int k){
         if (indexFirst>indexLast)
