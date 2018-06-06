@@ -36,7 +36,7 @@ public class TestMatrix {
                 int sum = 0;
                 for (int p = i; p < k+i; p++)
                     for (int q = j; q < k+j; q++)
-                        sum += grid[p][q];
+//                        sum += grid[p][q];
 
                 System.out.print(sum+ " ");
             }
