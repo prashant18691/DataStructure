@@ -1,4 +1,4 @@
-package com.test.prs.algorithms;
+package com.test.prs.algorithms.backtrakking;
 
 public class NQueensProblem {
     private int noOfQueens;
