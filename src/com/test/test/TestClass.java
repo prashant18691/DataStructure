@@ -47,7 +47,7 @@ public class TestClass {
     @Test
     public void main() throws Exception {
         // Set input
-        File inputFile = new File(TestClass.class.getResource("input.txt").toURI());
+        File inputFile = new File(TestClass.class.getResource("com/test/resources/input.txt").toURI());
         final FileInputStream fileInputStream = new FileInputStream(inputFile);
         System.setIn(fileInputStream);
         // Get expected output
