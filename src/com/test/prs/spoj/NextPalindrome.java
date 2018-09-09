@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class NextPalindrome {
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
        Scanner s = new Scanner(System.in);
        int t = s.nextInt();
        while(t>0){
@@ -93,14 +93,14 @@ public class NextPalindrome {
             return false;
         }
         return true;
-    }*/
+    }
 
 
     //second method
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
-        int num[]= {1,2,3,4};
+        int num[]= {1,9,9,1};
         if(isAll9(num)) {
             System.out.print("1");
             for (int i = 0; i < num.length - 1; i++)
@@ -141,6 +141,6 @@ public class NextPalindrome {
                 return false;
         }
         return true;
-    }
+    }*/
 }
 
