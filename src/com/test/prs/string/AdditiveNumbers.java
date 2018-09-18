@@ -62,7 +62,7 @@ public class AdditiveNumbers {
     }
 
     public static void main(String[] args) {
-        String num1 = "199001200";
+        String num1 = "199100199";
         System.out.println(isAdditive(num1));
     }
 }
