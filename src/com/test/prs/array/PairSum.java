@@ -76,7 +76,7 @@ class PairSum
     }
 
 
-    public static int correctSolution(int[] a, long k) {
+    public static int correctSolution(int[] a, long k) {// wrong
         boolean hasDuplicatedDivisor = false;
         HashSet<Long> nums = new HashSet<Long>();
         for(int i=0;i<a.length;i++){
