@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class TestPermutation {
-    static void permute(String str,int l,int r){// repeated arrangements for AAC etc.
+    static void permute(String str,int l,int r){// repeated arrangements for AAC etc. O(n*n!)
         if(l==r)
             System.out.println(str);
         for(int i=l;i<=r;i++){
@@ -14,7 +14,7 @@ public class TestPermutation {
         }
     }
 
-    static void permute1(char[] s){// distinct O(n*n!)
+    static void permute1(char[] s){// distinct O(n2*n!)tc;O(1) sc
         int size = s.length;
         Arrays.sort(s);
         boolean isFinished=false;
