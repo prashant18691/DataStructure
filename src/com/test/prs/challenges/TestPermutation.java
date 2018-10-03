@@ -14,7 +14,7 @@ public class TestPermutation {
         }
     }
 
-    static void permute1(char[] s){// distinct O(n2*n!)tc;O(1) sc
+    static void permute1(char[] s){// distinct O(n2*n!)tc;O(1)
         int size = s.length;
         Arrays.sort(s);
         boolean isFinished=false;
@@ -66,9 +66,32 @@ public class TestPermutation {
     }
 
     public static void main(String[] args) {
-        String str = "1234";
+        String str = "abac";
 //        TestPermutation.permute(str,0,str.length()-1);
-        TestPermutation.permute1(str.toCharArray());
+//        TestPermutation.permute1(str.toCharArray());
+        TestPermutation.permute3(str, 0, str.length());
+    }
+
+
+    public static void permute3(String str, int index, int n){
+        if (index>=n){
+            System.out.println(str);
+        }
+        for (int i = index; i < n; i++) {
+            if(shouldSwap(str, index, i)){// only swap if values are different
+                str = swap(str,index,i);
+                permute3(str,index+1,n);
+                str = swap(str,index,i);
+            }
+        }
+    }
+
+    private static boolean shouldSwap(final String str, final int start, final int curr) {
+        for (int k = start; k < curr; k++) {
+            if (str.charAt(k)==str.charAt(curr))
+                return false;
+        }
+        return true;
     }
 
 }
