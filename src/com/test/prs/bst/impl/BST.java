@@ -101,7 +101,7 @@ public class BST {
         bst.root = bst.add(bst.root,13);
         printInorder(bst.root);
      //   System.out.println(bst.search(bst.root,6));
-        bst.delete(bst.root,4);
+        bst.root = bst.delete(bst.root,4);
         printInorder(bst.root);
     }
 
