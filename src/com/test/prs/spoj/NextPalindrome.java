@@ -1,6 +1,5 @@
 package com.test.prs.spoj;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 
