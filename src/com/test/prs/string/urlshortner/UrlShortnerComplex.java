@@ -142,12 +142,12 @@ public class UrlShortnerComplex {
 
     // test the code
     public static void main(String args[]) {
-        UrlShortnerComplex u = new UrlShortnerComplex(5, "www.tinyurl.com/");
-        String urls[] = { "www.google.com/", "www.google.com",
-                "http://www.yahoo.com", "www.yahoo.com/", "www.amazon.com",
-                "www.amazon.com/page1.php", "www.amazon.com/page2.php",
-                "www.flipkart.in", "www.rediff.com", "www.techmeme.com",
-                "www.techcrunch.com", "www.lifehacker.com", "www.icicibank.com" };
+        UrlShortnerComplex u = new UrlShortnerComplex(5, "https://www.tinyurl.com/");
+        String urls[] = { "http://www.google.com/", "https://www.google.com",
+                "http://www.yahoo.com", "https://www.yahoo.com/", "http://www.amazon.com",
+                "https://www.amazon.com/page1.php", "http://www.amazon.com/page2.php",
+                "https://www.flipkart.in", "http://www.rediff.com", "https://www.techmeme.com",
+                "http://www.techcrunch.com", "https://www.lifehacker.com", "http://www.icicibank.com" };
 
         for (int i = 0; i < urls.length; i++) {
             System.out.println("URL:" + urls[i] + "\tTiny: "

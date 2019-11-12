@@ -23,7 +23,7 @@ public class FindSurpasserCount { // elements greater than current at RHS
         else{
             if(n<node.data){
                 node.left = addNode(node.left,n);
-                node.invCount++;
+                node.invCount++;// wrong
             }
             else {
                 node.right = addNode(node.right, n);

@@ -1,9 +1,9 @@
 package com.test.test;
 
-import com.sun.javafx.tools.packager.Main;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import sun.applet.Main;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -47,7 +47,7 @@ public class TestClass {
     @Test
     public void main() throws Exception {
         // Set input
-        File inputFile = new File(TestClass.class.getResource("input.txt").toURI());
+        File inputFile = new File(TestClass.class.getResource("com/test/resources/input.txt").toURI());
         final FileInputStream fileInputStream = new FileInputStream(inputFile);
         System.setIn(fileInputStream);
         // Get expected output

@@ -30,7 +30,7 @@ public class FindMaxRegion {
         int m = grid[0].length;
         if(r<0 || c<0 || r>=n || c>= m || grid[r][c]==0)
             return 0;
-        int count = grid[r][c]--;
+        int count = grid[r][c]--;// mark it as visited after considering the value
         count += countRegion(grid,r-1,c-1) + countRegion(grid,r-1,c) + countRegion(grid,r-1,c+1)
                 + countRegion(grid,r,c+1) + countRegion(grid,r+1,c+1) +  countRegion(grid,r+1,c)
                 + countRegion(grid,r+1,c-1) + countRegion(grid,r,c-1);
