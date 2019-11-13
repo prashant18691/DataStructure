@@ -1,5 +1,8 @@
 package com.test.prs.lfucache;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class TestLFUCache {
     public static void main(String[] args) {
         LFUCache cache = new LFUCache(4);
@@ -8,7 +11,8 @@ public class TestLFUCache {
             cache.set(i,i+1);
             efficient.set(i,i+1);
         }
-
+        Deque<Integer> deque = new LinkedList<>();
+        deque.remove(1);
         System.out.println(cache.get(4) +" "+ efficient.get(4));
         System.out.println(cache.get(6) +" "+ efficient.get(6));
         System.out.println(cache.get(3) + " "+efficient.get(3));
