@@ -5,29 +5,37 @@ import java.util.Map;
 import java.util.TreeMap;
 
 // O(1) complexity
-public class LFUCacheEfficient {
-    private Map<Integer,Node> valueMap = new HashMap<>();//holds key-value
-    private TreeMap<Integer, DoubleLinkedList> frequencyMap = new TreeMap<>();// holds count-LinkedList<key>
+class LFUCacheEfficient {
+
+    private Map<Integer,Node> valueMap;//holds key-value
+    private TreeMap<Integer, DoubleLinkedList> frequencyMap;// holds count-LinkedList<key>
     private Integer MAX_CAPACITY;
 
-    public LFUCacheEfficient(final Integer MAX_CAPACITY) {
-        this.MAX_CAPACITY = MAX_CAPACITY;
+    public LFUCacheEfficient(int capacity) {
+        valueMap = new HashMap<>();
+        frequencyMap = new TreeMap<>();
+        this.MAX_CAPACITY = capacity;
     }
 
-    public Integer get(int key){
+    public int get(int key) {
         if (!valueMap.containsKey(key))
             return -1;
         Node node = valueMap.get(key);
+        updateFrequency(node);
+        return node.value;
+    }
+
+    public void updateFrequency(Node node) {
         int frequency = node.count;
         node.count++;
         frequencyMap.get(frequency).remove(node);
         if (frequencyMap.get(frequency).size()==0)
             frequencyMap.remove(frequency);
         frequencyMap.computeIfAbsent(frequency+1, k -> new DoubleLinkedList()).add(node);
-        return node.value;
     }
 
-    public void set(int key, int value){
+    public void put(int key, int value) {
+        if(MAX_CAPACITY==0) return;
         if (!valueMap.containsKey(key)){
             Node node = new Node(key, value);
             if (valueMap.size()==MAX_CAPACITY){
@@ -36,16 +44,19 @@ public class LFUCacheEfficient {
                 frequencyMap.get(lowestCount).remove(nodeToDelete);
                 if (frequencyMap.get(lowestCount).size()==0)
                     frequencyMap.remove(lowestCount);
-//                countMap.remove(nodeToDelete.key);
                 valueMap.remove(nodeToDelete.key);
             }
             valueMap.put(key,node);
             node.count++;
-//            countMap.put(key,1);
             frequencyMap.computeIfAbsent(1, k -> new DoubleLinkedList()).add(node);
         }
-    }
+        else{
+            Node node = valueMap.get(key);
+            updateFrequency(node);
+            node.value = value;
+        }
 
+    }
 }
 
 class Node{
@@ -63,26 +74,40 @@ class DoubleLinkedList{
     Node head, tail;
 
     void add(Node node){
-        if (head==null) {
-            head = node;
-            tail = node;
-            return;
-        }
-        tail.next = node;
         node.prev = tail;
-        tail = node;
+        if (tail==null){
+            tail = node;
+            head = node;
+        }
+        else{
+            tail.next = node;
+            tail = node;
+        }
         n++;
     }
 
     void remove(Node node){
-        if (node.next==null) { // tail
-            tail = node.prev;
+        Node next = node.next;
+        Node prev = node.prev;
+        if (next!=null &&  prev!=null){
+            prev.next = next;
+            next.prev = prev;
+            node.prev=null;
+            node.next=null;
         }
-        else if(node.prev==null){ // head
-           head = node.next;
+        else if (next!=null){//head
+            next.prev=null;
+            node.next=null;
+            head = next;
+        }
+        else if(prev!=null){//tail
+            prev.next=null;
+            node.prev=null;
+            tail=prev;
         }
         else{
-            node.prev.next = node.next;
+            head=null;
+            tail=null;
         }
         n--;
     }
@@ -95,3 +120,10 @@ class DoubleLinkedList{
         return n;
     }
 }
+
+/**
+ * Your LFUCache object will be instantiated and called as such:
+ * LFUCache obj = new LFUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
+ */

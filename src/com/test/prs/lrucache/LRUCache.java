@@ -41,7 +41,7 @@ public class LRUCache<T> {
                 index++;
             }
             if(index!=-1)*/
-                dq.remove(key);
+                dq.remove(key);//O(n)
         }
         map.put(key,value);
         dq.add(key);
