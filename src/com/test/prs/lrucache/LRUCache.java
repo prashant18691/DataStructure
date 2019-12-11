@@ -5,7 +5,7 @@ import java.util.*;
 public class LRUCache<T> {
 
     DoublyLinkedList<T> dq;
-    Map<T,T> map;
+    Map<T,Node<T>> map;
     final int capacity;
 
     public LRUCache(int capacity) {
@@ -17,34 +17,31 @@ public class LRUCache<T> {
 
     public T get(T key) {
         if(map.containsKey(key)){
-            T value = map.get(key);
-            put(key,value);
-            return value;
+            Node<T> value = map.get(key);
+            put(key,value.val);
+            return value.val;
         }
         return null;
     }
 
     public void put(T key, T value) {
         if(!map.containsKey(key)){
+            Node<T> newNode = new Node<>();
+            newNode.val=value;
+            newNode.key=key;
             if(map.size()==capacity){
                 T x = dq.removeLast();
                 map.remove(x);
             }
+            dq.add(newNode);
+            map.put(key, newNode);
         }
         else{
-            /*Iterator<T> it = dq.iterator();
-            int index = 0;
-            while(it.hasNext()){
-                if(it.next()==value){
-                    break;
-                }
-                index++;
-            }
-            if(index!=-1)*/
-                dq.remove(key);//O(n)
+            Node<T> node = map.get(key);
+            node.val=value;
+            dq.remove(node);//O(1)
+            dq.add(node);//add at top
         }
-        map.put(key,value);
-        dq.add(key);
     }
 }
 
@@ -54,16 +51,14 @@ class DoublyLinkedList<T>{
     Node<T> tail;
     int size;
 
-    void add(T t){//adds at the head
-        Node<T> begin = head;
-        Node<T> newNode = new Node<>(null,t,begin);
-        head = newNode;
-        if (begin==null){
-            tail = newNode;
-        }
-        else{
-            begin.prev = newNode;
-        }
+    void add(Node<T> node){//adds at the head
+        node.next = head;
+        node.prev = null;
+        if (head != null)
+            head.prev = node;
+        head = node;
+        if (tail == null)
+            tail = head;
         size++;
     }
 
@@ -105,30 +100,18 @@ class DoublyLinkedList<T>{
         return val;
     }
 
-    boolean remove(T val){
-        for (Node<T> i = head;i!=null;i=i.next){
-            if (val.equals(i.val)){
-                Node<T> prev = i.prev;
-                Node<T> next = i.next;
-                if (prev==null){//head is being removed
-                    head=next;
-                }
-                else{
-                    prev.next=next;
-                    i.prev = null;
-                }
-                if (next==null){
-                    tail = prev;
-                }
-                else{
-                    next.prev = prev;
-                    i.next = null;
-                }
-                i.val = null;
-                return true;
-            }
+    void remove(Node<T> node){
+        if (node.prev != null) {
+            node.prev.next = node.next;
+        } else {
+            head = node.next;
         }
-        return false;
+
+        if (node.next != null) {
+            node.next.prev = node.prev;
+        } else {
+            tail = node.prev;
+        }
     }
 
 
@@ -136,12 +119,18 @@ class DoublyLinkedList<T>{
 
 class Node<T>{
     Node<T> prev;
+    T key;
     T val;
     Node<T> next;
+
+    public Node() {
+    }
 
     public Node(Node<T> prev, T val, Node<T> next) {
         this.prev = prev;
         this.val = val;
         this.next = next;
     }
+
+
 }
