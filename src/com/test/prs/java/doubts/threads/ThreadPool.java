@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class ThreadPool {
     private int nThreads;
-    private LinkedBlockingQueue queue;
+    private LinkedBlockingQueue queue;// no need to synchronize
     private WorkerThreads[] poolWorkers;
     private AtomicBoolean exit;
 
