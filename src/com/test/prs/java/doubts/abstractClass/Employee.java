@@ -47,4 +47,8 @@ public abstract class Employee {
     public void setDept(String dept) {
         this.dept = dept;
     }
+
+    void tellName(){
+
+    }
 }

@@ -26,20 +26,18 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(3);
-        TreeNode left = new TreeNode(4);
-        TreeNode right = new TreeNode(5);
-        left.left = new TreeNode(1);
-        left.right = new TreeNode(2);
-        left.right.left = new TreeNode(0);
+        TreeNode root = new TreeNode(1);
+        TreeNode left = new TreeNode(2);
+        TreeNode right = new TreeNode(3);
+        left.left = new TreeNode(4);
+        left.right = new TreeNode(5);
+        right.right = new TreeNode(6);
+        left.left.left = new TreeNode(7);
+        right.right.right = new TreeNode(8);
         root.left = left;
         root.right = right;
 
-        TreeNode s = new TreeNode(4);
-        s.left = new TreeNode(1);
-        s.right = new TreeNode(2);
-
-        Solution solution = new Solution();
-        solution.isSubtree(root, s);
+        Solution1 solution = new Solution1();
+        System.out.println(solution.deepestLeavesSum(root));
     }
 }
